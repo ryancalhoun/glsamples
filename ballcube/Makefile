@@ -1,7 +1,7 @@
 
 CC=/usr/bin/gcc
 RM=/bin/rm
-CFLAGS=-w -I.
+CFLAGS=-w
 LDFLAGS=-L/usr/X11R6/lib
 LDLIBS=-lGL -lGLU -lglut -lX11 -lXmu -lXi -lXext -lm
 OBJS=collide.o main.o point.o vec.o

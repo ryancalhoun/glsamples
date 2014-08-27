@@ -1,4 +1,4 @@
-#include<vec.h>
+#include "vec.h"
 
 vec vecComponents(float x, float y, float z)
 {

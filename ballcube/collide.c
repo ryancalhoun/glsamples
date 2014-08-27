@@ -1,8 +1,8 @@
-#include<vec.h>
-#include<point.h>
-#include<wall.h>
-#include<ball.h>
-#include<math.h>
+#include "vec.h"
+#include "point.h"
+#include "wall.h"
+#include "ball.h"
+#include <math.h>
 
 void bbCollide(ball* b1, ball* b2)
 {
