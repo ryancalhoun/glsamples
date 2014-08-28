@@ -5,5 +5,5 @@ A screensaver-style visualization of a recursive solution to the eight queens pr
 
 The curve of the outer edge of the queen is revolved around a vertical axis to create the surface. The shape was determined by me eyeballing an actual wooden queen piece and drawing dots on an index card.
 
-For some reason, the texuring of the queens is all inside-out or backwards.
+I have a binary compiled Mar 5 2013, which for some reason, renders the queens is all inside-out or backwards. A binary that I compiled Aug 28 2014 has the same problem but is also missing almost all color. It amazes me how much a framework or platform can change over time, in ways that make the same code produce different behavior.
 
