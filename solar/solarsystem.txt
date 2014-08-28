@@ -1,0 +1,440 @@
+sun:radius  = 100 
+sun:color   = 1,1,0
+
+planet      = mercury
+radius      = 2
+tilt        = 0
+distance    = 150
+period      = 88 
+day         = 1416
+color       = .5,.5,.5
+
+planet      = venus
+radius      = 4
+tilt        = 2
+distance    = 170
+period      = 225
+day         = 1032
+color       = 0,.5,1
+
+planet      = earth
+radius      = 5
+tilt        = 23
+distance    = 210
+period      = 365
+day         = 24
+color       = 0,.1,1
+    moon        = luna
+    radius      = 1
+    distance    = 7
+    period       = 28 
+    color       = .5,.5,.5
+
+planet      = mars
+radius      = 3
+tilt        = 25
+distance    = 260
+period      = 687
+day         = 24
+color       = 1,.3,0
+    moon        = phebos
+    radius      = .7 
+    distance    = 5 
+    period      = 7
+    color       = .7,.7,.7
+
+    moon        = demios
+    radius      = .3 
+    distance    = 10 
+    period      = 30
+    color       = .7,.7,.7 
+
+planet      = jupiter
+radius      = 30
+tilt        = 3
+distance    = 400
+rings       = .1
+period      = 4343
+day         = 10
+color       = .9,.4,.2
+    moon        = metis
+    radius      = .2
+    distance    = 32
+    period      = 80
+    color       = .6,.6,.6
+
+    moon        = adrastea
+    radius      = .3
+    distance    = 33
+    period      = 84
+    color       = .6,.6,.6
+
+    moon        = amalthea
+    radius      = .5
+    distance    = 34
+    period      = 105
+    color       = .6,.6,.6
+
+    moon        = thebe
+    radius      = .4
+    distance    = 35
+    period      = 150
+    color       = .6,.6,.6
+
+    moon        = io
+    radius      = 1
+    distance    = 38
+    period      = 200
+    color       = .5,.5,.7
+
+    moon        = europa
+    radius      = .8
+    distance    = 42
+    period      = 230
+    color       = .5,.5,.7
+
+    moon        = ganymede
+    radius      = 1.1
+    distance    = 46
+    period      = 300
+    color       = .5,.5,.7
+
+    moon        = callisto
+    radius      = .9
+    distance    = 49
+    period      = 340
+    color       = .5,.5,.7
+
+    moon        = leda
+    radius      = .1
+    distance    = 51
+    period      = 440
+    color       =
+
+    moon        = himalia
+    radius      = .5
+    distance    = 52
+    period      = 500
+    color       =
+
+    moon        = lysithea
+    radius      = .2
+    distance    = 53
+    period      = 540
+    color       = .6,.6,.6
+
+    moon        = elara
+    radius      = .3
+    distance    = 54
+    period      = 560
+    color       = .6,.6,.6
+
+    moon        = ananke
+    radius      = .1
+    distance    = 55
+    period      = 600
+    color       = .6,.6,.6
+
+    moon        = carme
+    radius      = .1
+    distance    = 56
+    period      = 610
+    color       = .6,.6,.6
+
+    moon        = pasiphae
+    radius      = .1
+    distance    = 57
+    period      = 690
+    color       = .6,.6,.6
+
+    moon        = sinope
+    radius      = .1
+    distance    = 58
+    period      = 660
+    color       = .6,.6,.6
+
+planet      = saturn
+radius      = 25
+tilt        = 27
+distance    = 550
+rings       = 20
+period      = 10767
+day         = 10
+color       = .7,.7,.5
+    moon        = titan
+    radius      = 2
+    distance    = 48
+    period      = 300
+    color       = .8,.8,.8
+
+    moon        = lapetus
+    radius      = .6
+    distance    = 46
+    period      = 320
+    color       = .8,.8,.8
+
+    moon        = rhea
+    radius      = .6
+    distance    = 42
+    period      = 400
+    color       = .8,.8,.8
+
+    moon        = dione
+    radius      = .6
+    distance    = 41
+    period      = 380
+    color       = .8,.8,.8
+
+    moon        = tethys
+    radius      = .5
+    distance    = 35
+    period      = 370
+    color       = .8,.8,.8
+
+    moon        = enceladus
+    radius      = .4
+    distance    = 33
+    period      = 340
+    color       = .8,.8,.8
+
+    moon        = mimas
+    radius      = .4
+    distance    = 32
+    period      = 310
+    color       = .8,.8,.8
+
+    moon        = hyperion
+    radius      = .4
+    distance    = 40
+    period      = 150
+    color       = .8,.8,.8
+
+    moon        = phoebe
+    radius      = .4
+    distance    = 50
+    period      = 170
+    color       = .8,.8,.8
+
+    moon        = janus
+    radius      = .1
+    distance    = 29
+    period      = 100
+    color       = .8,.8,.8
+
+    moon        = epimetheus
+    radius      = .1
+    distance    = 28
+    period      = 103
+    color       = .8,.8,.8
+
+    moon        = helene
+    radius      = .4
+    distance    = 34
+    period      = 160
+    color       = .8,.8,.8
+
+    moon        = telesto
+    radius      = .1
+    distance    = 30.5
+    period      = 130
+    color       = .8,.8,.8
+
+    moon        = calypso
+    radius      = .3
+    distance    = 30
+    period      = 132
+    color       = .8,.8,.8
+
+    moon        = pandora
+    radius      = .4
+    distance    = 27
+    period      = 80
+    color       = .8,.8,.8
+
+    moon        = prometheus
+    radius      = .4
+    distance    = 26.5
+    period      = 82
+    color       = .8,.8,.8
+
+    moon        = atlas
+    radius      = .3
+    distance    = 26.2
+    period      = 76
+    color       = .8,.8,.8
+
+    moon        = s1
+    radius      = .3
+    distance    = 26
+    period      = 75
+    color       = .8,.8,.8
+
+planet      = uranus
+radius      = 12
+tilt        = 82
+distance    = 780
+rings       = .3 
+period      = 30660
+day         = 16
+color       = .4,.4,.4
+    moon        = cordelia
+    radius      = .1
+    distance    = 14
+    period      = 100
+    color       = .5,.5,.5
+
+    moon        = ophelia
+    radius      = .1
+    distance    = 14.5
+    period      = 190
+    color       = .5,.5,.5
+
+    moon        = bianca
+    radius      = .1
+    distance    = 15
+    period      = 200
+    color       = .5,.5,.5
+
+    moon        = cressida
+    radius      = .1
+    distance    = 15.5
+    period      = 210
+    color       = .5,.5,.5
+
+    moon        = desdemona
+    radius      = .1
+    distance    = 16
+    period      = 250
+    color       = .5,.5,.5
+
+    moon        = juliet
+    radius      = .1
+    distance    = 16.5
+    period      = 255
+    color       = .5,.5,.5
+
+    moon        = portia
+    radius      = .1
+    distance    = 17
+    period      = 280
+    color       = .5,.5,.5
+
+    moon        = rosalind
+    radius      = .1
+    distance    = 17.5
+    period      = 290
+    color       = .5,.5,.5
+
+    moon        = belinda
+    radius      = .1
+    distance    = 18
+    period      = 300
+    color       = .5,.5,.5
+
+    moon        = puck
+    radius      = .2
+    distance    = 18.5
+    period      = 400
+    color       = .5,.5,.5
+
+    moon        = miranda
+    radius      = .3
+    distance    = 19
+    period      = 420
+    color       = .5,.5,.5
+
+    moon        = ariel
+    radius      = .4
+    distance    = 19.5
+    period      = 430
+    color       = .5,.5,.5
+
+    moon        = umbriel
+    radius      = .4
+    distance    = 20
+    period      = 450
+    color       = .5,.5,.5
+
+    moon        = titania
+    radius      = .5
+    distance    = 21
+    period      = 460
+    color       = .5,.5,.5
+
+    moon        = oberon
+    radius      = .5
+    distance    = 22
+    period      = 500
+    color       = .5,.5,.5
+
+planet      = neptune
+radius      = 11
+tilt        = 29
+distance    = 900
+rings       = .1
+period      = 60225
+day         = 18
+color       = .2,.2,.8
+    moon        = n6
+    radius      = .1
+    distance    = 12
+    period      = 210
+    color       = .5,.5,.5
+
+    moon        = n5
+    radius      = .1
+    distance    = 12.3
+    period      = 250
+    color       = .5,.5,.5
+
+    moon        = n4
+    radius      = .2
+    distance    = 13
+    period      = 270
+    color       = .5,.5,.5
+
+    moon        = n3
+    radius      = .2
+    distance    = 12.6
+    period      = 290
+    color       = .5,.5,.5
+
+    moon        = n2
+    radius      = .2
+    distance    = 14
+    period      = 310
+    color       = .5,.5,.5
+
+    moon        = n1
+    radius      = .3
+    distance    = 16
+    period      = 350
+    color       = .5,.5,.5
+
+    moon        = triton
+    radius      = .5
+    distance    = 20
+    period      = 380
+    color       = .5,.5,.5
+
+    moon        = nereid
+    radius      = .3
+    distance    = 30
+    period      = 400
+    color       = .5,.5,.5
+
+planet      = pluto
+radius      = 3
+tilt        = 50
+distance    = 1000
+offset      = 120
+period      = 90520
+day         = 24777
+color       = .8,.8,.8
+    moon        = charon
+    radius      = .1
+    distance    = 4
+    period      = 30
+    color       = .5,.5,.5
+
+
