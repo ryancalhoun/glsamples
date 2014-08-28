@@ -3,11 +3,9 @@
 #endif
 
 #ifdef __APPLE__
-#include<OpenGL/glut.h>
 #include<OpenGL/glu.h>
 #include<OpenGL/gl.h>
 #else
-#include<GL/glut.h>
 #include<GL/glu.h>
 #include<GL/gl.h>
 #endif
@@ -60,7 +58,7 @@ void drawPlanet(struct planet* p, GLUquadric* q, int orbit)
 	// planet
 	glColor3fv((float*)&p->c);
 	glMaterialfv(GL_FRONT, GL_EMISSION, e);
-	glutSolidSphere(p->r, 20, 20);
+	gluSphere(q, p->r, 20, 20);
 
 	// rings
 	if(p->g > 0)
@@ -89,7 +87,7 @@ void drawPlanet(struct planet* p, GLUquadric* q, int orbit)
 			gluDisk(q, p->moons[i].d, p->moons[i].d+.1, 50, 20);
 			glPopMatrix();
 		}
-		drawMoon(&p->moons[i]);
+		drawMoon(&p->moons[i], q);
 	}
 	glPopMatrix();
 }

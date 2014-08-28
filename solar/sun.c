@@ -3,11 +3,9 @@
 #endif
 
 #ifdef __APPLE__
-#include<OpenGL/glut.h>
 #include<OpenGL/glu.h>
 #include<OpenGL/gl.h>
 #else
-#include<GL/glut.h>
 #include<GL/glu.h>
 #include<GL/gl.h>
 #endif
@@ -40,9 +38,11 @@ void drawSun(struct sun* s, GLUquadric* q, int orbit)
 	e[2] = s->c.b;
 
 	glPushMatrix();
+	glDisable(GL_LIGHTING);
 	glColor3fv((float*)&s->c);
 	glMaterialfv(GL_FRONT, GL_EMISSION, e);
-	glutSolidSphere(s->r, 200, 200);
+	gluSphere(q, s->r, 200, 200);
+	glEnable(GL_LIGHTING);
 	for(i = 0; i < s->nplanets; ++i)
 	{
 		glPushMatrix();

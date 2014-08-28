@@ -12,5 +12,5 @@ struct moon
 };
 
 int setMoonAttr(struct moon* m, char* k, char* v);
-void drawMoon(struct moon* m);
+void drawMoon(struct moon* m, GLUquadric* q);
 

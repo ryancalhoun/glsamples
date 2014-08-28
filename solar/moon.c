@@ -3,11 +3,9 @@
 #endif
 
 #ifdef __APPLE__
-#include<OpenGL/glut.h>
 #include<OpenGL/glu.h>
 #include<OpenGL/gl.h>
 #else
-#include<GL/glut.h>
 #include<GL/glu.h>
 #include<GL/gl.h>
 #endif
@@ -33,7 +31,7 @@ int setMoonAttr(struct moon* m, char* k, char* v)
 	return 0;
 }
 
-void drawMoon(struct moon* m)
+void drawMoon(struct moon* m, GLUquadric* q)
 {
 	float e[] = { 0, 0, 0, 1 };
 	glPushMatrix();
@@ -42,7 +40,7 @@ void drawMoon(struct moon* m)
 	glRotatef(m->a, 0, 1, 0);
 	glColor3fv((float*)&m->c);
 	glMaterialfv(GL_FRONT, GL_EMISSION, e);
-	glutSolidSphere(m->r, 20, 20);
+	gluSphere(q, m->r, 20, 20);
 	glPopMatrix();
 }
 
