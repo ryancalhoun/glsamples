@@ -9,4 +9,6 @@ I have a binary compiled Mar 5 2013, which for some reason, renders the queens i
 
 UPDATE: some of the rendering issues are related to the color depth of the X windows session. I had some success running in an Xvfb session with 16 bit color, but at 24 bit color all the queens are again inside-out.
 
+This is a screenshot and demo of the running animation:
+
 [![Demo](http://img.youtube.com/vi/m-_2doOacbQ/0.jpg)](http://youtu.be/m-_2doOacbQ)
